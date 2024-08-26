@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "omni_vcs": "bin/omni.js"
+    "omni": "bin/omni.js"
   },
   "directories": {
     "lib": "lib"
@@ -11,10 +11,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["version-control", "git", "vcs", "omni"],
+  "author": "Sumedhav Krishna",
+  "license": "MIT",
+  "description": "A fun and custom version control system inspired by Git.",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
@@ -22,3 +22,4 @@
     "uuid": "^10.0.0"
   }
 }
+
